@@ -11,3 +11,8 @@ connect($uname, $password);
 $uname = "jeff2";
 $password = "hunter3";
 connect($uname, $password);
+
+// trigger RSPEC-2068
+$uname = "jeff3";
+$password = "hunter4";
+connect($uname, $password);
