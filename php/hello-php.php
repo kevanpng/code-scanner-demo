@@ -6,3 +6,8 @@ echo 'Hello World';
 $uname = "jeff";
 $password = "hunter2";
 connect($uname, $password);
+
+// trigger RSPEC-2068
+$uname = "jeff2";
+$password = "hunter3";
+connect($uname, $password);
