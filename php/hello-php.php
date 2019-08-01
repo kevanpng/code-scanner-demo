@@ -7,15 +7,6 @@ $uname = "jeff";
 $password = "hunter2";
 connect($uname, $password);
 
-// trigger RSPEC-2068
-$uname = "jeff";
-$password = "hunter2";
-connect($uname, $password);
-
-
-
-
-
 
 
 
@@ -41,5 +32,36 @@ connect($uname, $password);
 $uname = "jeff";
 $password = "hunter2";
 connect($uname, $password);
+//shifted down. should have 1 new and 1 resolved
 
-//shift line. params should be different, resulting in 1 new and 1 resolved finding. shifted even more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// trigger RSPEC-2068
+$uname = "jeff";
+$password = "hunter2";
+connect($uname, $password);
+
+//shift line. params should be different, resulting in 1 new and 1 resolved finding. 
