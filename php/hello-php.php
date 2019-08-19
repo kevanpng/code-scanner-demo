@@ -18,28 +18,6 @@ connect($uname, $password);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // trigger RSPEC-2068
 $uname = "jeff";
 $password = "hunter2";
